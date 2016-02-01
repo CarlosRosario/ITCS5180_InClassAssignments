@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">In Class 2a</string>
+    <string name="MetersLabel">Meters:</string>
+    <string name="distance_hint">Enter Distance</string>
+    <string name="resultLabel">Result:</string>
+    <string name="inchesButtonText">To Inches</string>
+    <string name="toFeetButtonText">To Feets</string>
+    <string name="ToMilesText">To Miles</string>
+    <string name="clearButtonText">Clear All</string>
+</resources>

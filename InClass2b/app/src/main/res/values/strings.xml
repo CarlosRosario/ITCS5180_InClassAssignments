@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InClass2b</string>
+    <string name="metersTextViewText">Meters:</string>
+    <string name="resultTextViewText">Result:</string>
+    <string name="inputboxhint">Enter Distance</string>
+    <string name="ToInchesRadioButtonText">To Inches</string>
+    <string name="ToFeetRadioButtonText">To Feets</string>
+    <string name="toMilesRadioButtonText">To Miles</string>
+    <string name="clearAllRadioButtonText">Clear All</string>
+    <string name="convertButtonText">Convert</string>
+</resources>

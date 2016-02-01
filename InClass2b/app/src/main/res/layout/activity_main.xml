@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.inclass2b.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/metersTextViewText"
+        android:id="@+id/metersTextView"
+        android:layout_alignBaseline="@+id/inputEditText"
+        android:layout_alignBottom="@+id/inputEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputEditText"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/metersTextView"
+        android:layout_marginTop="34dp"
+        android:layout_toRightOf="@+id/metersTextView"
+        android:hint="@string/inputboxhint" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/resultTextViewText"
+        android:id="@+id/resultTextView"
+        android:layout_below="@+id/inputEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_below="@+id/resultTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="36dp"
+        android:id="@+id/RadioGroup">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ToInchesRadioButtonText"
+            android:id="@+id/toInchesRadioButton"
+            android:layout_gravity="center"
+
+            android:layout_below="@+id/resultTextView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false"
+            android:layout_margin="8dp" />
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ToFeetRadioButtonText"
+            android:id="@+id/toFeetsRadioButton"
+            android:layout_gravity="center"
+            android:layout_alignLeft="@+id/toInchesRadioButton"
+            android:layout_alignStart="@+id/toInchesRadioButton"
+            android:layout_margin="8dp"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toMilesRadioButtonText"
+            android:id="@+id/toMilesRadioButton"
+            android:layout_gravity="center"
+            android:layout_below="@+id/toFeetsRadioButton"
+            android:layout_alignLeft="@+id/toFeetsRadioButton"
+            android:layout_alignStart="@+id/toFeetsRadioButton"
+            android:layout_margin="8dp"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clearAllRadioButtonText"
+            android:id="@+id/clearAllRadioButton"
+            android:layout_gravity="center"
+            android:layout_below="@+id/toMilesRadioButton"
+            android:layout_alignLeft="@+id/toMilesRadioButton"
+            android:layout_alignStart="@+id/toMilesRadioButton"
+            android:layout_margin="8dp"
+            android:checked="true" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/convertButtonText"
+        android:id="@+id/convertButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/conversionResultsTextView"
+        android:layout_alignBottom="@+id/resultTextView"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
