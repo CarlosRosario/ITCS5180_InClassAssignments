@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PasswordGenerator</string>
+    <string name="numberCheckBox">Numbers</string>
+    <string name="upperCaseCheckBox">Uppercase Letters</string>
+    <string name="lowerCaseCheckBox">Lowercase Letters</string>
+    <string name="specialCheckBox">Special Characters</string>
+    <string name="threadButton">Generate Password (Thread)</string>
+    <string name="asyncButton">Generate Password (AsyncTask)</string>
+    <string name="passwordLengthPrompt">Select Password Length</string>
+
+    <string-array name="passwordLength">
+        <item>Select Password Length</item>
+        <item>8 - 12</item>
+        <item>13 - 17</item>
+        <item>18 - 22</item>
+    </string-array>
+</resources>
