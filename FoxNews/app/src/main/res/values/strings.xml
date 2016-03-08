@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Popular News Events</string>
+    <string name="mostPopular">Most Popular</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="health">Health</string>
+    <string name="lifeStyle">Lifestyle</string>
+    <string name="opinion">Opinion</string>
+    <string name="politics">Politics</string>
+    <string name="science">Science</string>
+    <string name="sports">Sports</string>
+    <string name="tech">Tech</string>
+    <string name="travel">Travel</string>
+    <string name="unitedStates">U.S.</string>
+    <string name="details_activity">InClass6</string>
+    <string name="story_title">Story Title</string>
+    <string name="story_pub_date">Story Pub Date</string>
+    <string name="description_title">Description</string>
+    <string name="description_text">Description Text</string>
+</resources>
