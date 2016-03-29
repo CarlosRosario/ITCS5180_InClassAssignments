@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Midterm</string>
+    <string name="main_activity_submitButton">submit</string>
+    <string name="venues_activity_viewmarked">View Marked Venues</string>
+    <string name="venues_activity_clearall">Clear All</string>
+
+    <string-array name="spinnerItems">
+        <item>Chicago, IL</item>
+        <item>Atlanta, GA</item>
+        <item>Charlotte, NC</item>
+        <item>San Francisco, CA</item>
+        <item>Seattle, WA</item>
+        <item>Orlando, FL</item>
+    </string-array>
+    <string name="title_activity_venues">VenuesActivity</string>
+</resources>
