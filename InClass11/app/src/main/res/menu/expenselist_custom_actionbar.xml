@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/show"
+            android:title="@string/AddExpenseActionBar"
+            android:onClick="addExpense"/>
+        <item
+            android:id="@+id/clear"
+            android:title="@string/LogOutActionBar"
+            android:onClick="logout"/>
+    </group>
+
+</menu>
