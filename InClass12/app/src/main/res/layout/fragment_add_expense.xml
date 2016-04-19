@@ -1,0 +1,97 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.firebase.group26.multifragmentdemo.AddExpenseFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_expense"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/ExpenseTitle" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/expenseName"
+            android:layout_below="@id/ExpenseTitle"
+            android:textSize="18dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/ExpenseNameTextView" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ExpenseNameTextView"
+            android:id="@+id/phoneBillEditText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/category"
+            android:layout_marginTop="15dp"
+            android:textSize="18dp"
+            android:layout_below="@id/phoneBillEditText"
+            android:id="@+id/categoryTextView" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/categorySpinner"
+            android:layout_below="@id/categoryTextView"
+            android:entries="@array/spinnerItems"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/amount"
+            android:textSize="18dp"
+            android:layout_below="@id/categorySpinner"
+            android:id="@+id/amountTextView" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/amountTextView"
+            android:id="@+id/amountEditText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textSize="18dp"
+            android:layout_below="@id/amountEditText"
+            android:id="@+id/dateTextView" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:layout_below="@id/dateTextView"
+            android:id="@+id/dateEditText" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_expense"
+            android:id="@+id/addExpenseButton"
+            android:layout_below="@id/dateEditText"/>
+
+
+
+    </LinearLayout>
+</FrameLayout>

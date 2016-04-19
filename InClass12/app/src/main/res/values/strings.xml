@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">InClass12</string>
+    <string name="logginButton">login</string>
+    <string name="createAccount">Create New Account</string>
+    <string name="signupButton">Sign Up</string>
+    <string name="CancelButton">Cancel</string>
+
+    <string name="AddExpenseActionBar">Add Expense</string>
+    <string name="LogOutActionBar">Log Out</string>
+
+
+    <string-array name="spinnerItems">
+        <item>Groceries</item>
+        <item>Invoice</item>
+        <item>Transportation</item>
+        <item>Shopping</item>
+        <item>Rent</item>
+        <item>Trips</item>
+        <item>Utilities</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="expense_details_title">Expense Details</string>
+    <string name="name_label">Name</string>
+    <string name="category_label">Category</string>
+    <string name="amount_label">Amount</string>
+    <string name="amount_details">$</string>
+    <string name="date_label">Date</string>
+
+    <string name="add_expense">Add An Expense</string>
+    <string name="expenseName">Expense Name</string>
+    <string name="category">Category</string>
+    <string name="amount">Amount</string>
+    <string name="date">Date</string>
+    <string name="addExpenseButton">Add Expense</string>
+    <string name="emailHint">Email</string>
+    <string name="passwordHint">Password</string>
+    <string name="fullnameHint">Full Name</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
